@@ -251,7 +251,7 @@
                   <nav class="user-menu">
                     <a class="btn btn-flat waves-effect show-sm-up" href="login.php">Login</a>
                     <span class="spacer vertical-divider show-lg-up"></span>
-                    <a class="btn waves-effect primary show-sm-up" href="register.html">register</a>
+                    <a class="btn waves-effect primary show-sm-up" href="register.php">register</a>
                    
                   </nav>
                 </nav>

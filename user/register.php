@@ -70,7 +70,7 @@
               <div class="header-content">
                 <nav class="nav-menu flex-grow-1">
                   <div class="logo flex-grow-1 start-mobile">
-                    <a href="index.html">
+                    <a href="dashboard.php">
                       <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
                     </a>
                   </div>
