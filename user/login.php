@@ -158,7 +158,7 @@
                       <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
                     </div>
                     <p class="body-2">SMK NEGERI 4 KENDARI. MEMBUKA LOKER UNTUK SEMUA JURUSAN.</p>
-                    <p class="body-2 hidden-sm-down">&copy; Nirwana Theme 2022</p>
+                    <p class="body-2 hidden-sm-down">&copy; Skill Station 2024</p>
                   </div>
                   <div class="col-md-6 col-sm-12 pa-4">
                     <ul class="show-sm-down collapsible">
