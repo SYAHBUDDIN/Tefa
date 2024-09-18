@@ -43,7 +43,7 @@
   <meta property="og:image" content="/images/logo-retail.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <title>Retail - Register </title><!-- Styles-->
+  <title>Skill Station - Register </title><!-- Styles-->
   <!-- Put the 3rd/plugins css here-->
   <link href="../assets/assets/css/vendors/normalize.css" rel="stylesheet">
   <link href="../assets/assets/css/vendors/bootstrap.css" rel="stylesheet">
