@@ -32,11 +32,11 @@ CREATE TABLE `tb_pengguna` (
   `id_pengguna` int NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `alamat` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `alamat` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `kota` varchar(255) NOT NULL,
   `kode_pos` int NOT NULL,
   `level` enum('user','admin','penjual') NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `tb_pengguna`
@@ -62,7 +62,8 @@ CREATE TABLE `tb_pesanan` (
   `kota_pengiriman` varchar(255) NOT NULL,
   `kode_pos_pengiriman` varchar(255) NOT NULL,
   `metode_pembayaran` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
 
 --
 -- Dumping data for table `tb_pesanan`
@@ -80,11 +81,12 @@ INSERT INTO `tb_pesanan` (`id_pesanan`, `id_pengguna`, `total_harga`, `id_produk
 CREATE TABLE `tb_produk` (
   `nama_produk` varchar(255) NOT NULL,
   `id_produk` int NOT NULL,
-  `deskripsi_produk` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `deskripsi_produk` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `kategori` varchar(255) NOT NULL,
   `harga` int NOT NULL,
   `gambar_produk` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
 
 --
 -- Dumping data for table `tb_produk`
