@@ -71,13 +71,13 @@
                 <nav class="nav-menu flex-grow-1">
                   <div class="logo flex-grow-1 start-mobile">
                     <a href="index.html">
-                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Skill Station</span>
+                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
                     </a>
                   </div>
                   <nav class="user-menu">
                     <a class="btn primary waves-effect" href="login.php">Login</a>
-                   
-                   
+
+
                   </nav>
                 </nav>
               </div>
@@ -98,28 +98,44 @@
                               <div class="head">
                                 <h4 class="use-text-title mq-md-up" data-class="use-text-subtitle">Buat akun baru</h4>
                               </div>
-                             
+
                               <form id="register_form">
                                 <div class="row spacing3 mb-0">
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
                                       <input class="validate" id="name" type="text" name="name" required />
-                                      <label for="name">Name? *</label>
+                                      <label for="name">Nama Pengguna</label>
                                     </div>
                                   </div>
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
                                       <input class="validate" id="email" type="email" name="email" required />
-                                      <label for="email">Email? *</label>
+                                      <label for="email">Email</label>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="input-field dark">
+                                      <textarea class="validate" name="alamat" id="email"></textarea>
+                                      <label for="email">Alamat</label>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="input-field dark">
+                                      <input class="validate" id="password" type="password" name="password" required />
+                                      <label for="email">Password</label>
                                     </div>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <div class="input-field dark mq-md-up" data-class="me-2">
                                       <input class="validate" id="password" type="password" name="password" required />
-                                      <label for="password">Password</label>
+                                      <label for="password">Kota</label>
                                     </div>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
+                                    <div class="input-field dark mq-md-up" data-class="me-2">
+                                      <input class="validate" id="password" type="password" name="password" required />
+                                      <label for="password">Kode post</label>
+                                    </div>
                                   </div>
                                 </div>
                                 <div class="btn-area">
@@ -161,7 +177,7 @@
                   <div class="col-md-3 col-sm-12 pa-lg-4 logo-area">
                     <div class="logo">
 
-                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Skill Station</span>
+                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
                     </div>
                     <p class="body-2">Reimagine how you sell with Sales Apps. We help market leaders transform their business.</p>
                     <p class="body-2 hidden-sm-down">&copy; Nirwana Theme 2022</p>
@@ -235,7 +251,7 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-12 pa-4">
-                    
+
                     <p class="body-2 mt-5 text-center hidden-md-up">&copy; Nirwana Theme 2022</p>
                   </div>
                 </div>
