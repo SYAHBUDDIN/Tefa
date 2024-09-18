@@ -71,75 +71,13 @@
                 <nav class="nav-menu flex-grow-1">
                   <div class="logo flex-grow-1 start-mobile">
                     <a href="index.html">
-                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Retail</span>
+                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Skill Station</span>
                     </a>
                   </div>
                   <nav class="user-menu">
-                    <a class="btn primary waves-effect" href="login.html">Login</a>
-                    <span class="spacer vertical-divider show-md-up"></span>
-                    <div class="menu-setting">
-                      <div class="setting">
-                        <button class="btn btn-icon waves-effect btn-small dropdown-trigger ma-1" data-target="dropdown_config" data-align="left" type="button">
-                          <i class="icon material-icons" id="setting_icon">settings</i>
-                        </button>
-                        <div class="dropdown-content setting" id="dropdown_config">
-                          <ul class="collection with-header">
-                            <li class="collection-header">theme mode</li>
-                            <li class="collection-item no-hover pl-4">
-                              <div class="flex-menu">
-                                <div class="switch">
-                                  <label>
-                                    light
-                                    <input id="theme_switcher" type="checkbox"><span class="lever"></span>
-                                    dark
-                                  </label>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                          <div class="dropdown-divider"></div>
-                          <ul class="collection with-header lang-menu" id="lang_menu">
-                            <li class="collection-header">language</li>
-                            <li class="collection-item lang-list waves-effect avatar">
-                              <a data-lang="ar" href="#">
-                                <div class="flag circle"><i class="ar"></i></div>
-                                <span class="content lang-opt text-truncate">󠁥󠁮󠁧󠁿العربيّة</span>
-                              </a>
-                            </li>
-                            <li class="collection-item lang-list waves-effect avatar">
-                              <a data-lang="de" href="#">
-                                <div class="flag circle"><i class="de"></i></div>
-                                <span class="content lang-opt text-truncate">Deutsch</span>
-                              </a>
-                            </li>
-                            <li class="collection-item lang-list waves-effect avatar">
-                              <a data-lang="en" href="#">
-                                <div class="flag circle"><i class="en"></i></div>
-                                <span class="content lang-opt text-truncate">English</span>
-                              </a>
-                            </li>
-                            <li class="collection-item lang-list waves-effect avatar">
-                              <a data-lang="id" href="#">
-                                <div class="flag circle"><i class="id"></i></div>
-                                <span class="content lang-opt text-truncate">󠁥󠁮󠁧󠁿Bahasa Indonesia</span>
-                              </a>
-                            </li>
-                            <li class="collection-item lang-list waves-effect avatar">
-                              <a data-lang="pt" href="#">
-                                <div class="flag circle"><i class="pt"></i></div>
-                                <span class="content lang-opt text-truncate">󠁥󠁮󠁧󠁿Português</span>
-                              </a>
-                            </li>
-                            <li class="collection-item lang-list waves-effect avatar">
-                              <a data-lang="zh" href="#">
-                                <div class="flag circle"><i class="zh"></i></div>
-                                <span class="content lang-opt text-truncate">简体中文</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
+                    <a class="btn primary waves-effect" href="login.php">Login</a>
+                   
+                   
                   </nav>
                 </nav>
               </div>
@@ -158,16 +96,9 @@
                           <div class="form-wrap">
                             <div class="form-style">
                               <div class="head">
-                                <h4 class="use-text-title mq-md-up" data-class="use-text-subtitle">Create new account</h4>
+                                <h4 class="use-text-title mq-md-up" data-class="use-text-subtitle">Buat akun baru</h4>
                               </div>
-                              <div class="socmed-side-login">
-                                <button class="btn navi-btn waves-effect"><i class="ion-social-facebook left"></i>Facebook</button>
-                                <button class="btn blue-btn waves-effect"><i class="ion-social-twitter left"></i>Twitter</button>
-                                <button class="btn red-btn waves-effect"><i class="ion-social-google left"></i>Google</button>
-                              </div>
-                              <div class="separator">
-                                <p>Or register with email</p>
-                              </div>
+                             
                               <form id="register_form">
                                 <div class="row spacing3 mb-0">
                                   <div class="col-sm-12">
@@ -229,7 +160,8 @@
                 <div class="row">
                   <div class="col-md-3 col-sm-12 pa-lg-4 logo-area">
                     <div class="logo">
-                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Retail</span>
+
+                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Skill Station</span>
                     </div>
                     <p class="body-2">Reimagine how you sell with Sales Apps. We help market leaders transform their business.</p>
                     <p class="body-2 hidden-sm-down">&copy; Nirwana Theme 2022</p>
@@ -303,22 +235,7 @@
                     </div>
                   </div>
                   <div class="col-md-3 col-sm-12 pa-4">
-                    <div class="socmed">
-                      <a class="btn btn-icon waves-effect"><span class="ion-social-facebook icon"></span></a>
-                      <a class="btn btn-icon waves-effect"><span class="ion-social-twitter icon"></span></a>
-                      <a class="btn btn-icon waves-effect"><span class="ion-social-instagram icon"></span></a>
-                      <a class="btn btn-icon waves-effect"><span class="ion-social-linkedin icon"></span></a>
-                    </div>
-                    <div class="select-lang select-outlined">
-                      <select class="select" id="lang_select">
-                        <option value="ar">󠁥󠁮󠁧󠁿العربيّة</option>
-                        <option value="de">Deutsch</option>
-                        <option value="en" selected>English</option>
-                        <option value="id">󠁥󠁮󠁧󠁿Bahasa Indonesia</option>
-                        <option value="pt">󠁥󠁮󠁧󠁿Português</option>
-                        <option value="zh">简体中文</option>
-                      </select>
-                    </div>
+                    
                     <p class="body-2 mt-5 text-center hidden-md-up">&copy; Nirwana Theme 2022</p>
                   </div>
                 </div>

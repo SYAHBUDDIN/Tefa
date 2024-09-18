@@ -75,7 +75,7 @@
                     </a>
                   </div>
                   <nav class="user-menu">
-                    <a class="btn primary waves-effect" href="register.html">register</a>
+                    <a class="btn primary waves-effect" href="register.php">register</a>
 
                   </nav>
                 </nav>
