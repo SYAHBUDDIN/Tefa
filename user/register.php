@@ -1,42 +1,37 @@
-<?php 
+<?php
 require_once("../koneksi.php");
-    if (isset($_POST['register'])){
-    // filter data 
-    $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
-    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_SPECIAL_CHARS);
-    $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_SPECIAL_CHARS);
-    $kota = filter_input(INPUT_POST, 'kota', FILTER_SANITIZE_SPECIAL_CHARS);
-    $kode_pos = filter_input(INPUT_POST, 'kode_pos', FILTER_SANITIZE_SPECIAL_CHARS);
+if (isset($_POST['register'])) {
+  // filter data 
+  $nama_pengguna = filter_input(INPUT_POST, 'nama_pengguna', FILTER_SANITIZE_SPECIAL_CHARS);
+  $kota = filter_input(INPUT_POST, 'kota', FILTER_SANITIZE_SPECIAL_CHARS);
+  $kode_pos = filter_input(INPUT_POST, 'kode_pos', FILTER_SANITIZE_SPECIAL_CHARS);
+  $alamat = filter_input(INPUT_POST, 'alamat', FILTER_SANITIZE_SPECIAL_CHARS);
 
-    // enkripsi data
-    $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
-    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-    $name = filter_input(INPUT_POST, 'name', FILTER_VALIDATE_NAME);
-    $kota = filter_input(INPUT_POST, 'kota', FILTER_VALIDATE_KOTA);
-    $alamat = filter_input(INPUT_POST, 'alamat', FILTER_VALIDATE_ALAMAT);
-    $kode_pos = filter_input(INPUT_POST, 'kode_pos', FILTER_VALIDATE_KODE_POS);
+  // enkripsi data
+  $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
+  $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 
-    // membuat queery SQL 
-    // menambahkan data query sql menggunkan insert into
-    $sql = "INSERT INTO tb_login (name, email, password, kota, alamat, kode_pos)VALUES (:name, :email, :password, :kota, :alamat, :kode_pos)";
+  // membuat queery SQL 
+  // menambahkan data query sql menggunkan insert into
+  $sql = "INSERT INTO tb_pengguna (nama_pengguna, email, password, kota, alamat, kode_pos)VALUES (:nama_pengguna, :email, :password, :kota, :alamat, :kode_pos)";
 
-    $simpan = $database->prepare($sql);
+  $simpan = $database->prepare($sql);
 
-    // parameter ke queery 
-    $params = array(
-        ":name" => $name,
-        ":email" => $email,
-        ":password" => $password,
-        ":kota" => $kota,
-        ":alamat" => $alamat,
-        ":kode_pos" => $kode_pos
-    );
+  // parameter ke queery 
+  $params = array(
+    ":nama_pengguna" => $nama_pengguna,
+    ":email" => $email,
+    ":password" => $password,
+    ":kota" => $kota,
+    ":alamat" => $alamat,
+    ":kode_pos" => $kode_pos
+  );
 
-    // mengakses query untuk di proses simpan ke database
-    $kirim = $simpan->execute($params);
+  // mengakses query untuk di proses simpan ke database
+  $kirim = $simpan->execute($params);
 
-    // redirect / pindah ke halaman login 
-    if($kirim) header("location: login.php");
+  // redirect / pindah ke halaman login 
+  if ($kirim) header("location: login.php");
 }
 ?>
 
@@ -143,11 +138,11 @@ require_once("../koneksi.php");
                                 <h4 class="use-text-title mq-md-up" data-class="use-text-subtitle">Buat akun baru</h4>
                               </div>
 
-                              <form id="register_form">
+                              <form id="register_form" method="POST">
                                 <div class="row spacing3 mb-0">
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
-                                      <input class="validate" id="name" type="text" name="name" required />
+                                      <input class="validate" id="email" type="text" name="nama_pengguna" required />
                                       <label for="name">Nama Pengguna</label>
                                     </div>
                                   </div>
@@ -159,7 +154,7 @@ require_once("../koneksi.php");
                                   </div>
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
-                                      <textarea class="validate" name="alamat" id="alamat" rows="5"></textarea>
+                                      <textarea class="validate" name="alamat" id="email" rows="5"></textarea>
                                       <label for="alamat">Alamat</label>
                                     </div>
                                   </div>
@@ -171,13 +166,13 @@ require_once("../koneksi.php");
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <div class="input-field dark mq-md-up" data-class="me-2">
-                                      <input class="validate" id="kota" type="text" name="kota" required />
+                                      <input class="validate" id="email" type="text" name="kota" required />
                                       <label for="kota">Kota</label>
                                     </div>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <div class="input-field dark mq-md-up" data-class="me-2">
-                                      <input class="validate" id="kode_pos" type="text" name="kode_pos" required />
+                                      <input class="validate" id="email" type="text" name="kode_pos" required />
                                       <label for="kode_pos">Kode post</label>
                                     </div>
                                   </div>
@@ -188,7 +183,7 @@ require_once("../koneksi.php");
                                       <label><input class="filled-in secondary" type="checkbox" required /><span>I have read and accept the Terms of <a class="link" href="#">Service &amp; Privacy Policy</a></span></label>
                                     </div>
                                   </div>
-                                  <div class="mt-4"><button class="btn secondary btn-large waves-effect" type="submit">Daftar Akun</button></div>
+                                  <div class="mt-4"><button class="btn secondary btn-large waves-effect" name="register" type="submit">Daftar Akun</button></div>
                                 </div>
                               </form>
                             </div>
@@ -213,7 +208,7 @@ require_once("../koneksi.php");
             </div>
           </div><!-- ##### END FORM #####-->
 
-          
+
         </div>
       </div>
     </div>
