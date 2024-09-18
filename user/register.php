@@ -1,8 +1,3 @@
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -121,25 +116,25 @@
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
                                       <textarea class="validate" name="alamat" id="email"></textarea>
-                                      <label for="alamat">Alamat</label>
+                                      <label for="email">Alamat</label>
                                     </div>
                                   </div>
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
                                       <input class="validate" id="password" type="password" name="password" required />
-                                      <label for="password">Password</label>
+                                      <label for="email">Password</label>
                                     </div>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <div class="input-field dark mq-md-up" data-class="me-2">
-                                      <input class="validate" id="password" type="text" name="kota" required />
-                                      <label for="kota">Kota</label>
+                                      <input class="validate" id="password" type="password" name="password" required />
+                                      <label for="password">Kota</label>
                                     </div>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <div class="input-field dark mq-md-up" data-class="me-2">
-                                      <input class="validate" id="password" type="password" name="kode_pos" required />
-                                      <label for="kode_pos">Kode post</label>
+                                      <input class="validate" id="password" type="password" name="password" required />
+                                      <label for="password">Kode post</label>
                                     </div>
                                   </div>
                                 </div>
@@ -159,7 +154,7 @@
                       <div class="col-md-6 col-sm-12">
                         <div class="hidden-sm-down">
                           <div class="greeting">
-                            <h4 class="use-text-title2 use-text-primary pb-2">Just register to join with us</h4>
+                            <h4 class="use-text-title2 use-text-primary pb-2">Silahkan register untuk bergabung dengan kami</h4>
                             <h6 class="use-text-subtitle2">A platform with efficient integration of many features and so much more</h6>
                             <div class="img">
                               <img class="img-2d3d" src="../assets/assets/images/retail/register_2d@2x.png" data-2d="../assets/assets" data-3d="../assets/assets/images/retail/register_2d@2x.png" alt="registes" />
