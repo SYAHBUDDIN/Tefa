@@ -123,7 +123,7 @@
                                   <a class="btn-flat button-link" href="#">Forgot Password</a>
                                 </div>
                                 <div class="btn-area">
-                                  <button class="btn secondary btn-large block waves-effect" type="submit">Continue</button>
+                                  <button class="btn secondary btn-large block waves-effect" type="submit">Submit</button>
                                 </div>
                               </form>
                             </div>
