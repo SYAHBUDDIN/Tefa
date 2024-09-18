@@ -115,7 +115,7 @@
                                   </div>
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
-                                      <textarea class="validate" name="alamat" id="email"></textarea>
+                                      <textarea class="validate" name="alamat" id="email" rows="5"></textarea>
                                       <label for="email">Alamat</label>
                                     </div>
                                   </div>
