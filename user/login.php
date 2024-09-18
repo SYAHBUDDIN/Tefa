@@ -228,25 +228,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-3 col-sm-12 pa-4">
-                    <div class="socmed">
-                      <a class="btn btn-icon waves-effect"><span class="ion-social-facebook icon"></span></a>
-                      <a class="btn btn-icon waves-effect"><span class="ion-social-twitter icon"></span></a>
-                      <a class="btn btn-icon waves-effect"><span class="ion-social-instagram icon"></span></a>
-                      <a class="btn btn-icon waves-effect"><span class="ion-social-linkedin icon"></span></a>
-                    </div>
-                    <div class="select-lang select-outlined">
-                      <select class="select" id="lang_select">
-                        <option value="ar">󠁥󠁮󠁧󠁿العربيّة</option>
-                        <option value="de">Deutsch</option>
-                        <option value="en" selected>English</option>
-                        <option value="id">󠁥󠁮󠁧󠁿Bahasa Indonesia</option>
-                        <option value="pt">󠁥󠁮󠁧󠁿Português</option>
-                        <option value="zh">简体中文</option>
-                      </select>
-                    </div>
-                    <p class="body-2 mt-5 text-center hidden-md-up">&copy; Nirwana Theme 2022</p>
-                  </div>
+                  
                 </div>
               </div>
             </footer>
