@@ -189,10 +189,6 @@
                                     </div>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
-                                    <div class="input-field dark mq-md-up" data-class="ms-2">
-                                      <input class="validate" id="confirm" type="password" name="confirm" data-validation="confirmation" data-validation-confirm="password" required />
-                                      <label for="confirm">Confirm Password</label>
-                                    </div>
                                   </div>
                                 </div>
                                 <div class="btn-area">
