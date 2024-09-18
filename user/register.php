@@ -1,3 +1,8 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -116,25 +121,25 @@
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
                                       <textarea class="validate" name="alamat" id="email"></textarea>
-                                      <label for="email">Alamat</label>
+                                      <label for="alamat">Alamat</label>
                                     </div>
                                   </div>
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
                                       <input class="validate" id="password" type="password" name="password" required />
-                                      <label for="email">Password</label>
+                                      <label for="password">Password</label>
                                     </div>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <div class="input-field dark mq-md-up" data-class="me-2">
-                                      <input class="validate" id="password" type="password" name="password" required />
-                                      <label for="password">Kota</label>
+                                      <input class="validate" id="password" type="text" name="kota" required />
+                                      <label for="kota">Kota</label>
                                     </div>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <div class="input-field dark mq-md-up" data-class="me-2">
-                                      <input class="validate" id="password" type="password" name="password" required />
-                                      <label for="password">Kode post</label>
+                                      <input class="validate" id="password" type="password" name="kode_pos" required />
+                                      <label for="kode_pos">Kode post</label>
                                     </div>
                                   </div>
                                 </div>
