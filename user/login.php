@@ -1,3 +1,38 @@
+<?php
+require_once("../koneksi.php");
+if(isset($_POST['login'])) {
+    // filter data
+    $nama_pengguna = filter_input(INPUT_POST, 'nama_pengguna', FILTER_SANITIZE_SPECIAL_CHARS );
+    $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_SPECIAL_CHARS);
+
+
+$sql = "SELECT * FROM tb_pengguna WHERE  nama_pengguna=:nama_pengguna OR email=:email";
+$baca = $database->prepare($sql);
+
+$params = array(
+    ':nama_pengguna' => $nama_pengguna,
+    ':email' => $nama_pengguna
+);
+
+$baca->execute($params);
+
+$user = $baca->fetch(PDO::FETCH_ASSOC);
+
+if ($user){
+    if (password_verify($password, $user["password"])){
+// buat session
+session_start();
+$_session["user"] = $user;
+
+header("Location: dashboard.php");
+
+    }
+}
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -98,12 +133,12 @@
                                 <h4 class="use-text-title mq-md-up" data-class="use-text-subtitle">Selamat Datang</h4>
                               </div>
 
-                              <form id="login_form">
+                              <form id="login_form" method="POST">
                                 <div class="row spacing3 mb-0">
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
-                                      <input class="validate" id="email" type="email" name="email" required />
-                                      <label for="email">Email</label>
+                                      <input class="validate" id="email" type="text" name="nama_pengguna" required />
+                                      <label for="email">email</label>
                                     </div>
                                   </div>
                                   <div class="col-sm-12">
@@ -123,7 +158,7 @@
                                   <!-- <a class="btn-flat button-link" href="#">Forgot Password</a> -->
                                 </div>
                                 <div class="btn-area">
-                                  <button class="btn secondary btn-large block waves-effect" type="submit">Login</button>
+                                  <button class="btn secondary btn-large block waves-effect" type="submit" name="login">Login</button>
                                 </div>
                               </form>
                             </div>
