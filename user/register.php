@@ -1,3 +1,47 @@
+<?php 
+require_once("../koneksi.php");
+    if (isset($_POST['register'])){
+    // filter data 
+    $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
+    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_SPECIAL_CHARS);
+    $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_SPECIAL_CHARS);
+    $kota = filter_input(INPUT_POST, 'kota', FILTER_SANITIZE_SPECIAL_CHARS);
+    $kode_pos = filter_input(INPUT_POST, 'kode_pos', FILTER_SANITIZE_SPECIAL_CHARS);
+
+    // enkripsi data
+    $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $name = filter_input(INPUT_POST, 'name', FILTER_VALIDATE_NAME);
+    $kota = filter_input(INPUT_POST, 'kota', FILTER_VALIDATE_KOTA);
+    $alamat = filter_input(INPUT_POST, 'alamat', FILTER_VALIDATE_ALAMAT);
+    $kode_pos = filter_input(INPUT_POST, 'kode_pos', FILTER_VALIDATE_KODE_POS);
+
+    // membuat queery SQL 
+    // menambahkan data query sql menggunkan insert into
+    $sql = "INSERT INTO tb_login (name, email, password, kota, alamat, kode_pos)VALUES (:name, :email, :password, :kota, :alamat, :kode_pos)";
+
+    $simpan = $database->prepare($sql);
+
+    // parameter ke queery 
+    $params = array(
+        ":name" => $name,
+        ":email" => $email,
+        ":password" => $password,
+        ":kota" => $kota,
+        ":alamat" => $alamat,
+        ":kode_pos" => $kode_pos
+    );
+
+    // mengakses query untuk di proses simpan ke database
+    $kirim = $simpan->execute($params);
+
+    // redirect / pindah ke halaman login 
+    if($kirim) header("location: login.php");
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -115,8 +159,8 @@
                                   </div>
                                   <div class="col-sm-12">
                                     <div class="input-field dark">
-                                      <textarea class="validate" name="alamat" id="email" rows="5"></textarea>
-                                      <label for="email">Alamat</label>
+                                      <textarea class="validate" name="alamat" id="alamat" rows="5"></textarea>
+                                      <label for="alamat">Alamat</label>
                                     </div>
                                   </div>
                                   <div class="col-sm-12">
@@ -127,14 +171,14 @@
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <div class="input-field dark mq-md-up" data-class="me-2">
-                                      <input class="validate" id="password" type="password" name="password" required />
-                                      <label for="password">Kota</label>
+                                      <input class="validate" id="kota" type="text" name="kota" required />
+                                      <label for="kota">Kota</label>
                                     </div>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <div class="input-field dark mq-md-up" data-class="me-2">
-                                      <input class="validate" id="password" type="password" name="password" required />
-                                      <label for="password">Kode post</label>
+                                      <input class="validate" id="kode_pos" type="text" name="kode_pos" required />
+                                      <label for="kode_pos">Kode post</label>
                                     </div>
                                   </div>
                                 </div>
