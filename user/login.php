@@ -71,12 +71,12 @@
                 <nav class="nav-menu flex-grow-1">
                   <div class="logo flex-grow-1 start-mobile">
                     <a href="index.html">
-                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Skill Station</span>
+                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
                     </a>
                   </div>
                   <nav class="user-menu">
                     <a class="btn primary waves-effect" href="register.html">register</a>
-                   
+
                   </nav>
                 </nav>
               </div>
@@ -97,7 +97,7 @@
                               <div class="head">
                                 <h4 class="use-text-title mq-md-up" data-class="use-text-subtitle">Selamat Datang</h4>
                               </div>
-                             
+
                               <form id="login_form">
                                 <div class="row spacing3 mb-0">
                                   <div class="col-sm-12">
@@ -155,9 +155,9 @@
                 <div class="row">
                   <div class="col-md-3 col-sm-12 pa-lg-4 logo-area">
                     <div class="logo">
-                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Skill Station</span>
+                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
                     </div>
-                    <p class="body-2">Reimagine how you sell with Sales Apps. We help market leaders transform their business.</p>
+                    <p class="body-2">SMK NEGERI 4 KENDARI. MEMBUKA LOKER UNTUK SEMUA JURUSAN.</p>
                     <p class="body-2 hidden-sm-down">&copy; Nirwana Theme 2022</p>
                   </div>
                   <div class="col-md-6 col-sm-12 pa-4">
@@ -228,7 +228,7 @@
                       </div>
                     </div>
                   </div>
-                  
+
                 </div>
               </div>
             </footer>
