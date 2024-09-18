@@ -5,22 +5,22 @@
   <meta charset="utf-8">
   <meta name="description" content="Nirwana Retail - HTML5 Bootstrap Template">
   <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"><!-- Favicon-->
-  <link rel="shortcut icon" href="./assets/favicons/favicon.ico">
-  <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
-  <link rel="manifest" href="./assets/favicons/manifest.json">
+  <link rel="shortcut icon" href="../assets/assets/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="../assets/assets/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../assets/assets/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../assets/assets/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/assets/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../assets/assets/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../assets/assets/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../assets/assets/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../assets/assets/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/assets/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/assets/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../assets/assets/favicons/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="./assets/favicons/ms-icon-144x144.png"><!-- PWA primary color-->
+  <meta name="msapplication-TileImage" content="../assets/assets/favicons/ms-icon-144x144.png"><!-- PWA primary color-->
   <meta name="theme-color" content="#E91E63">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -33,7 +33,7 @@
   <meta property="twitter:domain" content="nirwana.ux-maestro.com">
   <meta property="twitter:creator" content="nirwana">
   <meta property="twitter:card" content="summary">
-  <meta property="twitter:image:src" content="./assets/images/logo-retail.png">
+  <meta property="twitter:image:src" content="../assets/assets/images/logo-retail.png">
   <meta property="og:url" content="nirwana.indisains.com/retail">
   <meta property="og:title" content="retail">
   <meta property="og:description" content="Nirwana Retail - HTML5 Bootstrap Template">
@@ -45,20 +45,20 @@
   <meta property="og:image:height" content="630">
   <title>Retail - Register </title><!-- Styles-->
   <!-- Put the 3rd/plugins css here-->
-  <link href="./assets/css/vendors/normalize.css" rel="stylesheet">
-  <link href="./assets/css/vendors/bootstrap.css" rel="stylesheet">
-  <link href="./assets/css/vendors/magnific-popup.css" rel="stylesheet">
-  <link href="./assets/css/vendors/materialize.css" rel="stylesheet">
-  <link href="./assets/css/vendors/hamburger-menu.css" rel="stylesheet">
-  <link href="./assets/css/vendors/animate.css" rel="stylesheet">
-  <link href="./assets/css/vendors/animate-extends.css" rel="stylesheet">
-  <link href="./assets/css/vendors/slick-carousel/slick.css" rel="stylesheet">
-  <link href="./assets/css/vendors/slick-carousel/slick-theme.css" rel="stylesheet">
-  <link href="./assets/css/styles.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/normalize.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/bootstrap.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/magnific-popup.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/materialize.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/hamburger-menu.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/animate.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/animate-extends.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/slick-carousel/slick.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/slick-carousel/slick-theme.css" rel="stylesheet">
+  <link href="../assets/assets/css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-  <div id="preloader" style="position: fixed; z-index: 10000; background: #fafafa; width: 100%; height: 100%"><img style="opacity: 0.2; position: fixed; top: calc(50% - 50px); left: calc(50% - 50px)" src="./assets/images/loading.gif" alt="loading"></div>
+  <div id="preloader" style="position: fixed; z-index: 10000; background: #fafafa; width: 100%; height: 100%"><img style="opacity: 0.2; position: fixed; top: calc(50% - 50px); left: calc(50% - 50px)" src="../assets/assets/images/loading.gif" alt="loading"></div>
   <div class="m-application theme--light transition-page" id="app">
     <div class="loading"></div>
     <div class="m-content rose roseGold-var" id="main-wrap">
@@ -71,7 +71,7 @@
                 <nav class="nav-menu flex-grow-1">
                   <div class="logo flex-grow-1 start-mobile">
                     <a href="index.html">
-                      <span class="logo-main landscape medium"><img src="./assets/images/logo-retail.png" alt="logo"/>Retail</span>
+                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Retail</span>
                     </a>
                   </div>
                   <nav class="user-menu">
@@ -214,7 +214,7 @@
                             <h4 class="use-text-title2 use-text-primary pb-2">Just register to join with us</h4>
                             <h6 class="use-text-subtitle2">A platform with efficient integration of many features and so much more</h6>
                             <div class="img">
-                              <img class="img-2d3d" src="./assets/images/retail/register_2d@2x.png" data-2d="./assets" data-3d="./assets/images/retail/register_2d@2x.png" alt="registes" />
+                              <img class="img-2d3d" src="../assets/assets/images/retail/register_2d@2x.png" data-2d="../assets/assets" data-3d="../assets/assets/images/retail/register_2d@2x.png" alt="registes" />
                             </div>
                           </div>
                         </div>
@@ -233,7 +233,7 @@
                 <div class="row">
                   <div class="col-md-3 col-sm-12 pa-lg-4 logo-area">
                     <div class="logo">
-                      <span class="logo-main landscape medium"><img src="./assets/images/logo-retail.png" alt="logo"/>Retail</span>
+                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Retail</span>
                     </div>
                     <p class="body-2">Reimagine how you sell with Sales Apps. We help market leaders transform their business.</p>
                     <p class="body-2 hidden-sm-down">&copy; Nirwana Theme 2022</p>
@@ -334,19 +334,19 @@
     </div>
   </div><!-- Scripts-->
   <!-- Put the 3rd/plugins javascript here-->
-  <script src="./assets/js/vendors/jquery.min.js"></script>
-  <script src="./assets/js/vendors/bootstrap.min.js"></script>
-  <script src="./assets/js/vendors/enquire.min.js"></script>
-  <script src="./assets/js/vendors/jquery.form-validator.min.js"></script>
-  <script src="./assets/js/vendors/jquery.touchSwipe.min.js"></script>
-  <script src="./assets/js/vendors/jquery.magnific-popup.min.js"></script>
-  <script src="./assets/js/vendors/pace.min.js"></script>
-  <script src="./assets/js/vendors/slick.min.js"></script>
-  <script src="./assets/js/vendors/wow.min.js"></script>
-  <script src="./assets/js/vendors/jquery.navScroll.min.js"></script><!-- This assets are not avalaible in npm.js or it has been costumized-->
-  <script src="./assets/js/vendors/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-  <script src="./assets/js/vendors/materialize.js"></script>
-  <script src="./assets/js/scripts.js"></script>
+  <script src="../assets/assets/js/vendors/jquery.min.js"></script>
+  <script src="../assets/assets/js/vendors/bootstrap.min.js"></script>
+  <script src="../assets/assets/js/vendors/enquire.min.js"></script>
+  <script src="../assets/assets/js/vendors/jquery.form-validator.min.js"></script>
+  <script src="../assets/assets/js/vendors/jquery.touchSwipe.min.js"></script>
+  <script src="../assets/assets/js/vendors/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/assets/js/vendors/pace.min.js"></script>
+  <script src="../assets/assets/js/vendors/slick.min.js"></script>
+  <script src="../assets/assets/js/vendors/wow.min.js"></script>
+  <script src="../assets/assets/js/vendors/jquery.navScroll.min.js"></script><!-- This assets are not avalaible in npm.js or it has been costumized-->
+  <script src="../assets/assets/js/vendors/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="../assets/assets/js/vendors/materialize.js"></script>
+  <script src="../assets/assets/js/scripts.js"></script>
   <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
 </body>
 
