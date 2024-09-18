@@ -141,10 +141,10 @@
                                 <div class="btn-area">
                                   <div class="form-helper">
                                     <div class="form-control-label">
-                                      <label><input class="filled-in secondary" type="checkbox" required /><span>I have read and accept the Terms of <a class="link" href="#">Service &amp; Privacy Policy *</a></span></label>
+                                      <label><input class="filled-in secondary" type="checkbox" required /><span>I have read and accept the Terms of <a class="link" href="#">Service &amp; Privacy Policy</a></span></label>
                                     </div>
                                   </div>
-                                  <div class="mt-4"><button class="btn secondary btn-large waves-effect" type="submit">Continue</button></div>
+                                  <div class="mt-4"><button class="btn secondary btn-large waves-effect" type="submit">Daftar Akun</button></div>
                                 </div>
                               </form>
                             </div>
@@ -155,7 +155,7 @@
                         <div class="hidden-sm-down">
                           <div class="greeting">
                             <h4 class="use-text-title2 use-text-primary pb-2">Silahkan register untuk bergabung dengan kami</h4>
-                            <h6 class="use-text-subtitle2">A platform with efficient integration of many features and so much more</h6>
+                            <h6 class="use-text-subtitle2">Platform dengan integrasi yang efisien dari banyak fitur dan masih banyak lagi</h6>
                             <div class="img">
                               <img class="img-2d3d" src="../assets/assets/images/retail/register_2d@2x.png" data-2d="../assets/assets" data-3d="../assets/assets/images/retail/register_2d@2x.png" alt="registes" />
                             </div>
@@ -169,95 +169,7 @@
             </div>
           </div><!-- ##### END FORM #####-->
 
-          <!-- ##### FOOTER #####-->
-          <div id="footer">
-            <footer class="footer-sitemap">
-              <div class="container mq-sm-down" data-class="fixed-width">
-                <div class="row">
-                  <div class="col-md-3 col-sm-12 pa-lg-4 logo-area">
-                    <div class="logo">
-
-                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
-                    </div>
-                    <p class="body-2">Reimagine how you sell with Sales Apps. We help market leaders transform their business.</p>
-                    <p class="body-2 hidden-sm-down">&copy; Nirwana Theme 2022</p>
-                  </div>
-                  <div class="col-md-6 col-sm-12 pa-4">
-                    <ul class="show-sm-down collapsible">
-                      <li class="accordion-content">
-                        <div class="collapsible-header">
-                          <h6 class="title">Company</h6><i class="material-icons right arrow">expand_more</i>
-                        </div>
-                        <div class="collapsible-body">
-                          <ul>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#history">History</a></li>
-                            <li><a href="#contact-us">Contact us</a></li>
-                            <li><a href="#locations">Locations</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="accordion-content">
-                        <div class="collapsible-header">
-                          <h6 class="title">Resources</h6><i class="material-icons right arrow">expand_more</i>
-                        </div>
-                        <div class="collapsible-body">
-                          <ul>
-                            <li><a href="#resource">Resource</a></li>
-                            <li><a href="#resource-name">Resource name</a></li>
-                            <li><a href="#another-resource">Another resource</a></li>
-                            <li><a href="#final-resource">Final resource</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="accordion-content">
-                        <div class="collapsible-header">
-                          <h6 class="title">Legal</h6><i class="material-icons right arrow">expand_more</i>
-                        </div>
-                        <div class="collapsible-body">
-                          <ul>
-                            <li><a href="#privacy-policy">Privacy policy</a></li>
-                            <li><a href="#terms-of-use">Terms of use</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                    </ul>
-                    <div class="row show-md-up justify-content-around">
-                      <div class="col pa-4 site-map-item">
-                        <h6 class="title mb-4">Company</h6>
-                        <ul>
-                          <li><a href="#team">Team</a></li>
-                          <li><a href="#history">History</a></li>
-                          <li><a href="#contact-us">Contact us</a></li>
-                          <li><a href="#locations">Locations</a></li>
-                        </ul>
-                      </div>
-                      <div class="col pa-4 site-map-item">
-                        <h6 class="title mb-4">Resources</h6>
-                        <ul>
-                          <li><a href="#resource">Resource</a></li>
-                          <li><a href="#resource-name">Resource name</a></li>
-                          <li><a href="#another-resource">Another resource</a></li>
-                          <li><a href="#final-resource">Final resource</a></li>
-                        </ul>
-                      </div>
-                      <div class="col pa-4 site-map-item">
-                        <h6 class="title mb-4">Legal</h6>
-                        <ul>
-                          <li><a href="#privacy-policy">Privacy policy</a></li>
-                          <li><a href="#terms-of-use">Terms of use</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-12 pa-4">
-
-                    <p class="body-2 mt-5 text-center hidden-md-up">&copy; Nirwana Theme 2022</p>
-                  </div>
-                </div>
-              </div>
-            </footer>
-          </div><!-- ##### END FOOTER #####-->
+          
         </div>
       </div>
     </div>
