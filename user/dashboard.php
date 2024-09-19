@@ -1,11 +1,11 @@
 
 
 <!DOCTYPE html>
-<html lang="en" dir="lloyalty">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Nirwana Retail - HTML5 Bootsloyaltyap Template">
+  <meta name="description" content="Nirwana Retail - HTML5 Bootstrap Template">
   <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"><!-- Favicon-->
   <link rel="shortcut icon" href="../assets/assets/favicons/favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57" href="../assets/assets/favicons/apple-icon-57x57.png">
@@ -28,17 +28,17 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"><!-- Facebook-->
   <meta property="author" content="nirwana">
-  <meta property="og:site_name" content="alexsloyaltyap.ux-maesloyaltyo.com">
+  <meta property="og:site_name" content="alexstrap.ux-maestro.com">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website"><!-- Twitter-->
-  <meta property="twitter:site" content="nirwana.ux-maesloyaltyo.com">
-  <meta property="twitter:domain" content="nirwana.ux-maesloyaltyo.com">
+  <meta property="twitter:site" content="nirwana.ux-maestro.com">
+  <meta property="twitter:domain" content="nirwana.ux-maestro.com">
   <meta property="twitter:creator" content="nirwana">
   <meta property="twitter:card" content="summary">
   <meta property="twitter:image:src" content="../assets/assets/images/logo-retail.png">
   <meta property="og:url" content="nirwana.indisains.com/retail">
   <meta property="og:title" content="retail">
-  <meta property="og:description" content="Nirwana Retail - HTML5 Bootsloyaltyap Template">
+  <meta property="og:description" content="Nirwana Retail - HTML5 Bootstrap Template">
   <meta name="twitter:site" content="nirwana.indisains.com/retail">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="/images/logo-retail.png">
@@ -48,7 +48,7 @@
   <title>Skill Station - Homepage </title><!-- Styles-->
   <!-- Put the 3rd/plugins css here-->
   <link href="../assets/assets/css/vendors/normalize.css" rel="stylesheet">
-  <link href="../assets/assets/css/vendors/bootsloyaltyap.css" rel="stylesheet">
+  <link href="../assets/assets/css/vendors/bootstrap.css" rel="stylesheet">
   <link href="../assets/assets/css/vendors/magnific-popup.css" rel="stylesheet">
   <link href="../assets/assets/css/vendors/materialize.css" rel="stylesheet">
   <link href="../assets/assets/css/vendors/hamburger-menu.css" rel="stylesheet">
@@ -61,7 +61,7 @@
 
 <body>
   <div id="preloader" style="position: fixed; z-index: 10000; background: #fafafa; width: 100%; height: 100%"><img style="opacity: 0.2; position: fixed; top: calc(50% - 50px); left: calc(50% - 50px)" src="../assets/assets/images/loading.gif" alt="loading"></div>
-  <div class="m-application theme--light loyaltyansition-page" id="app">
+  <div class="m-application theme--light transition-page" id="app">
     <div class="loading"></div>
     <div class="m-content rose roseGold-var" id="main-wrap">
       <div id="home">
@@ -77,7 +77,7 @@
                   <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#testimonials">testimonials</a></li>
                   <li class="collection-item group-child has-child">
                     <div class="collapsible-header">
-                      <a class="waves-effect text-loyaltyuncate menu-list" href="#!">
+                      <a class="waves-effect text-truncate menu-list" href="#!">
                         inner Page
                         <i class="material-icons right">keyboard_arrow_down</i>
                       </a>
@@ -89,16 +89,16 @@
                             <div class="title-mega">Company</div>
                           </li>
                           <li class="collection-item side-group-link">
-                            <a class="waves-effect text-loyaltyuncate menu-list" href="about.html">about</a>
+                            <a class="waves-effect text-truncate menu-list" href="about.html">about</a>
                           </li>
                           <li class="collection-item side-group-link">
-                            <a class="waves-effect text-loyaltyuncate menu-list" href="about-team.html">team</a>
+                            <a class="waves-effect text-truncate menu-list" href="about-team.html">team</a>
                           </li>
                           <li class="collection-item side-group-link">
-                            <a class="waves-effect text-loyaltyuncate menu-list" href="blog.html">blog</a>
+                            <a class="waves-effect text-truncate menu-list" href="blog.html">blog</a>
                           </li>
                           <li class="collection-item side-group-link">
-                            <a class="waves-effect text-loyaltyuncate menu-list" href="detail-blog.html">blog detail</a>
+                            <a class="waves-effect text-truncate menu-list" href="detail-blog.html">blog detail</a>
                           </li>
                         </ul>
                         <ul class="group-child">
@@ -348,7 +348,7 @@
                       <div class="col-md-6 px-sm-8 px-0">
                         <div class="desc">
                           <div class="title-secondary right-title">
-                            <h3>Kami Hanya Menjembatani Penjualan antara Penjual dan Pembeli</h3>
+                            <h3>CRM and customer loyalty</h3>
                           </div>
                           <h6 class="use-text-subtitle2 text-center text-md-end">Turn once-in-a-while shoppers into regulars. Run loyalty program to reward customers for their recurring purchases</h6>
                         </div>
@@ -581,12 +581,12 @@
                               <p class="name"><sCRMong>James Doe</sCRMong>&nbsp; - Senior Graphic Designer</p>
                             </div>
                             <div class="item">
-                              <p class="content">Amazing new updates. It has every meCRMic you need, customizable analytics to clear the chatter. Very easy to use. love it.</p>
-                              <p class="name"><sloyaltyong>Jack Doe</sloyaltyong>&nbsp; - Chief Digital Officer</p>
+                              <p class="content">Amazing new updates. It has every metric you need, customizable analytics to clear the chatter. Very easy to use. love it.</p>
+                              <p class="name"><strong>Jack Doe</strong>&nbsp; - Chief Digital Officer</p>
                             </div>
                             <div class="item">
                               <p class="content">Ads always help the process along. Makes things so much easier. New to it but am going back in to learn more.</p>
-                              <p class="name"><sloyaltyong>Jenny Doe</sloyaltyong>&nbsp; - Chief Digital Officer</p>
+                              <p class="name"><strong>Jenny Doe</strong>&nbsp; - Chief Digital Officer</p>
                             </div>
                           </div>
                         </div>
@@ -655,7 +655,7 @@
                   <div class="logo">
                     <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Skill Station</span>
                   </div>
-                  <p class="body-2">Reimagine how you sell with Sales Apps. We help market leaders loyaltyansform their business.</p>
+                  <p class="body-2">Reimagine how you sell with Sales Apps. We help market leaders transform their business.</p>
                   <p class="body-2 hidden-sm-down">&copy; Nirwana Theme 2022</p>
                 </div>
                 <div class="col-md-6 col-sm-12 pa-4">
@@ -795,7 +795,7 @@
   </div><!-- Scripts-->
   <!-- Put the 3rd/plugins javascript here-->
   <script src="../assets/assets/js/vendors/jquery.min.js"></script>
-  <script src="../assets/assets/js/vendors/bootsloyaltyap.min.js"></script>
+  <script src="../assets/assets/js/vendors/bootstrap.min.js"></script>
   <script src="../assets/assets/js/vendors/enquire.min.js"></script>
   <script src="../assets/assets/js/vendors/jquery.form-validator.min.js"></script>
   <script src="../assets/assets/js/vendors/jquery.touchSwipe.min.js"></script>
