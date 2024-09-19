@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -71,10 +69,10 @@
             <div class="side-multilv">
               <div class="collection side-multilv">
                 <ul class="collapsible expandable">
-                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#feature">Home</a></li>
-                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#management">Produk</a></li>
-                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#business">business</a></li>
-                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#testimonials">testimonials</a></li>
+                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#banner">Home</a></li>
+                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#feature">Layanan</a></li>
+                  <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#business">Prodak Jurusan</a></li>
+                  <!-- <li class="collection-item"><a class="sidenav-close waves-effect menu-list" href="#testimonials">testimonials</a></li>
                   <li class="collection-item group-child has-child">
                     <div class="collapsible-header">
                       <a class="waves-effect text-truncate menu-list" href="#!">
@@ -154,22 +152,23 @@
                         </ul>
                       </div>
                     </div>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div class="dropdown-divider"></div>
               <div class="collection">
                 <ul>
                   <li class="collection-item">
-                    <a class="sidenav-close waves-effect menu-list" href="login.html">Login</a>
+                    <a class="sidenav-close waves-effect menu-list" href="login.php">Login</a>
                   </li>
                   <li class="collection-item">
-                    <a class="sidenav-close waves-effect menu-list" href="register.html">register</a>
+                    <a class="sidenav-close waves-effect menu-list" href="register.php">register</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
+
           <header class="app-bar header" id="header">
             <div class="container">
               <div class="header-content">
@@ -177,21 +176,21 @@
                   <button class="btn-icon waves-effect sidenav-trigger hamburger hamburger--spin show-md-down" id="mobile_menu" type="button" data-target="slide_menu"><span class="hamburger-box"><span class="bar hamburger-inner"></span></span></button>
                   <div class="logo">
                     <a href="index.html">
-                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Skill Station</span>
+                      <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
                     </a>
                   </div>
                   <div class="scrollactive-nav show-lg-up multi-menu scrollnav">
                     <ul class="main-menu">
                       <li>
-                        <a class="btn btn-flat anchor-link waves-effect" href="#Home">Home</a>
+                        <a class="btn btn-flat anchor-link waves-effect" href="#banner">Home</a>
                       </li>
                       <li>
-                        <a class="btn btn-flat anchor-link waves-effect" href="#management">Produk</a>
+                        <a class="btn btn-flat anchor-link waves-effect" href="#feature">Layanan</a>
                       </li>
                       <li>
-                        <a class="btn btn-flat anchor-link waves-effect" href="#business">business</a>
+                        <a class="btn btn-flat anchor-link waves-effect" href="#business">Prodak Jurusan</a>
                       </li>
-                      <li>
+                      <!-- <li>
                         <a class="btn btn-flat anchor-link waves-effect" href="#testimonials">testimonials</a>
                       </li>
                       <li>
@@ -247,14 +246,14 @@
                             </div>
                           </div>
                         </div>
-                      </li>
+                      </li> -->
                     </ul>
                   </div>
                   <nav class="user-menu">
                     <a class="btn btn-flat waves-effect show-sm-up" href="login.php">Login</a>
                     <span class="spacer vertical-divider show-lg-up"></span>
                     <a class="btn waves-effect primary show-sm-up" href="register.php">register</a>
-                   
+
                   </nav>
                 </nav>
                 <div id="container_menu"></div>
@@ -294,10 +293,10 @@
                           </div>
                         </div>
                       </div>
-                     
+
                     </div>
                   </div>
-                 
+
                 </div>
               </div>
             </section><!-- ##### END BANNER #####-->
@@ -316,7 +315,7 @@
                 </div>
                 <div class="container mq-lg-up" data-class="fixed-width">
                   <div class="title-main center-title">
-                    <h4>fitur</h4>
+                    <h4>Layanan kami</h4>
                   </div>
                   <div class="item">
                     <div class="row align-items-center justify-content-center">
@@ -410,12 +409,13 @@
                         </svg>
                         <a class="paper waves-effect" href="javascipt:void(0)">
                           <i class="ion-code"></i>
-                          <h6>Rekayasa Perangkat Lunak</h6></a>
+                          <h6>Rekayasa Perangkat Lunak</h6>
+                        </a>
                       </div>
                     </div>
                   </div>
                   <div>
-                  <div class="wow zoomInShort" data-wow-offset="50" data-wow-delay="0s" data-wow-duration="0.5s">
+                    <div class="wow zoomInShort" data-wow-offset="50" data-wow-delay="0s" data-wow-duration="0.5s">
                       <div class="circle fill-primary large" style="top:0px;left:430px">
                         <svg style="transform: rotate(-90deg)">
                           <g stroke="none" stroke-width="1" fill-rule="evenodd">
@@ -423,8 +423,9 @@
                           </g>
                         </svg>
                         <a class="paper waves-effect" href="javascipt:void(0)">
-                        <i class="ion-tshirt"></i>
-                          <h6>Kriya Tekstil</h6></a>
+                          <i class="ion-tshirt"></i>
+                          <h6>Kriya Tekstil</h6>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -438,7 +439,8 @@
                         </svg>
                         <a class="paper waves-effect" href="javascipt:void(0)">
                           <i class="ion-videocamera"></i>
-                          <h6>Broadcasting & Perfilman</h6></a>
+                          <h6>Broadcasting & Perfilman</h6>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -452,7 +454,8 @@
                         </svg>
                         <a class="paper waves-effect" href="javascipt:void(0)">
                           <i class="ion-hammer"></i>
-                          <h6>Kriya Kayu</h6></a>
+                          <h6>Kriya Kayu</h6>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -466,7 +469,8 @@
                         </svg>
                         <a class="paper waves-effect" href="javascipt:void(0)">
                           <i class="ion-wifi"></i>
-                          <h6>Teknik Komputer & Jaringan</h6></a>
+                          <h6>Teknik Komputer & Jaringan</h6>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -480,7 +484,8 @@
                         </svg>
                         <a class="paper waves-effect" href="javascipt:void(0)">
                           <i class="ion-paintbrush"></i>
-                          <h6>Desain Komunikasi Visual</h6></a>
+                          <h6>Desain Komunikasi Visual</h6>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -488,14 +493,14 @@
               </div>
             </section><!-- ##### END BUSINESS #####-->
 
-        
+
           </main><!-- ##### FOOTER #####-->
           <footer class="footer-sitemap">
             <div class="container mq-sm-down" data-class="fixed-width">
               <div class="row">
                 <div class="col-md-3 col-sm-12 pa-lg-4 logo-area">
                   <div class="logo">
-                    <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo"/>Skill Station</span>
+                    <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
                   </div>
                   <p class="body-2">Reimagine how you sell with Sales Apps. We help market leaders transform their business.</p>
                   <p class="body-2 hidden-sm-down">&copy; Nirwana Theme 2022</p>
