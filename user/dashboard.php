@@ -319,13 +319,13 @@
                     <h4>fitur</h4>
                   </div>
                   <div class="item">
-                    <div class="row align-items-center justify-content-center">
+                    <div class="row align-items-center justify-content-center">git config --global user.email "you@example.com"
                       <div class="col-md-6 col-sm-12 order-lg-5 px-0">
                         <div class="desc">
                           <div class="title-secondary left-title">
                             <h3>gampang di akses</h3>
                           </div>
-                          <h6 class="use-text-subtitle2 text-center text-lg-start">anda dapat mengakses situs kami dengan </h6>
+                          <h6 class="use-text-subtitle2 text-center text-lg-start">anda dapat mengakses situs kami dengan bergabung dengan kami secara geratis</h6>
                         </div>
                       </div>
                       <div class="col-md-4 col-sm-12 px-sm-8 px-0 order-lg-0">
