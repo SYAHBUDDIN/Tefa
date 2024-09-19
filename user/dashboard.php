@@ -322,9 +322,9 @@
                       <div class="col-md-6 col-sm-12 order-lg-5 px-0">
                         <div class="desc">
                           <div class="title-secondary left-title">
-                            <h3>Gampang di akses</h3>
+                            <h3>Pencarian produk</h3>
                           </div>
-                          <h6 class="use-text-subtitle2 text-center text-lg-start">anda dapat mengakses webside kami lebih lanjut dengan bergabung dengan kami secara gratis. kami juga tidak akan menggangu percakapan anda dengan penjual karena kami hanya menjembatani anda ke penjual</h6>
+                          <h6 class="use-text-subtitle2 text-center text-lg-start">Fitur yang memudahkan pengguna untuk mencari produk dengan cepat melalui search bar yang disediakan. Pencarian produk yang efektif membuat pengalaman belanja lebih cepat dan intuitif. Pengguna dapat langsung menuju produk yang diinginkan tanpa harus melalui banyak langkah, yang meningkatkan kepuasan pelanggan.</h6>
                         </div>
                       </div>
                       <div class="col-md-4 col-sm-12 px-sm-8 px-0 order-lg-0">
@@ -347,9 +347,9 @@
                       <div class="col-md-6 px-sm-8 px-0">
                         <div class="desc">
                           <div class="title-secondary right-title">
-                            <h3>Pencarian produk</h3>
+                            <h3>Gampang di akses</h3>
                           </div>
-                          <h6 class="use-text-subtitle2 text-center text-md-end">Fitur yang memudahkan pengguna untuk mencari produk dengan cepat melalui search bar yang disediakan.</h6>
+                          <h6 class="use-text-subtitle2 text-center text-md-end">Anda dapat mengakses webside kami lebih lanjut dengan bergabung dengan kami secara gratis. kami juga tidak akan menggangu percakapan anda dengan penjual karena kami hanya menjembatani anda ke penjual.</h6>
                         </div>
                       </div>
                       <div class="col-md-6 px-sm-12 px-0">
