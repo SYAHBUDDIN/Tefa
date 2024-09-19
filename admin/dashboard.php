@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    INI HALAMAN DASHBOARD ADMIN
+    <p>INI HALAMAN DASHBOARD ADMIN<p>
 </body>
 </html>

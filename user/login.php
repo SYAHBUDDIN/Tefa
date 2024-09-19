@@ -22,14 +22,15 @@ if ($user){
     if (password_verify($password, $user["password"])){
 // buat session
 session_start();
+ if($user['level'] == "admin"){
 $_session["user"] = $user;
-$_session["level"] = "user";
+header("Location: ../admin/dashboard.php");
+ }if($user['level'] == "user"){
+$_session["user"] = $user;
 header("Location: dashboard.php");
-
-    }
-
-
+}
   }
+}
 }
 
 ?>
