@@ -502,95 +502,60 @@
                   <div class="logo">
                     <span class="logo-main landscape medium"><img src="../assets/assets/images/logo-retail.png" alt="logo" />Skill Station</span>
                   </div>
-                  <p class="body-2">Reimagine how you sell with Sales Apps. We help market leaders transform their business.</p>
-                  <p class="body-2 hidden-sm-down">&copy; Nirwana Theme 2022</p>
+                  <p class="body-2">Sekolah kejuruan di Kota Kendari yang memiliki motto SEIRAMA (Seni, Ilmu, Olahraga, Agama, dan Derma).</p>
+                  <p class="body-2 hidden-sm-down">&copy; Skill Station 2024</p>
                 </div>
                 <div class="col-md-6 col-sm-12 pa-4">
                   <ul class="show-sm-down collapsible">
+
+                    <!-- untuk android -->
                     <li class="accordion-content">
                       <div class="collapsible-header">
-                        <h6 class="title">Company</h6><i class="material-icons right arrow">expand_more</i>
+                        <h6 class="title">Link</h6><i class="material-icons right arrow">expand_more</i>
                       </div>
                       <div class="collapsible-body">
                         <ul>
-                          <li><a href="#team">Team</a></li>
-                          <li><a href="#history">History</a></li>
-                          <li><a href="#contact-us">Contact us</a></li>
-                          <li><a href="#locations">Locations</a></li>
-                        </ul>
+                          <li><a href="#Kemdikbud">Kemdikbud</a></li>
+                          <li><a href="#Info-gtk">Info gtk</a></li>
+                          <li><a href="#Beasiswa">Beasiswa</a></li>
+                          <li><a href="#Pendidikan">Pendidikan</a></li
+                            </ul>
                       </div>
                     </li>
+
                     <li class="accordion-content">
                       <div class="collapsible-header">
-                        <h6 class="title">Resources</h6><i class="material-icons right arrow">expand_more</i>
+                        <h6 class="title">Alamat</h6><i class="material-icons right arrow">expand_more</i>
                       </div>
                       <div class="collapsible-body">
                         <ul>
-                          <li><a href="#resource">Resource</a></li>
-                          <li><a href="#resource-name">Resource name</a></li>
-                          <li><a href="#another-resource">Another resource</a></li>
-                          <li><a href="#final-resource">Final resource</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="accordion-content">
-                      <div class="collapsible-header">
-                        <h6 class="title">Legal</h6><i class="material-icons right arrow">expand_more</i>
-                      </div>
-                      <div class="collapsible-body">
-                        <ul>
-                          <li><a href="#privacy-policy">Privacy policy</a></li>
-                          <li><a href="#terms-of-use">Terms of use</a></li>
+                          <li>Jl. Kijang, No. 5, Kec. Poasia, Kota Kendari</li>
+                          <li>Telp: 0852-4174-2284</li>
                         </ul>
                       </div>
                     </li>
                   </ul>
+
+                  <!-- untuk website -->
                   <div class="row show-md-up justify-content-around">
                     <div class="col pa-4 site-map-item">
-                      <h6 class="title mb-4">Company</h6>
+                      <h6 class="title mb-4">Link</h6>
                       <ul>
-                        <li><a href="#team">Team</a></li>
-                        <li><a href="#history">History</a></li>
-                        <li><a href="#contact-us">Contact us</a></li>
-                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#Kemdikbud">Kemdikbud</a></li>
+                        <li><a href="#Info-gtk">Info gtk</a></li>
+                        <li><a href="#Beasiswa">Beasiswa</a></li>
+                        <li><a href="#Pendidikan">Pendidikan</a></li>
                       </ul>
                     </div>
+
                     <div class="col pa-4 site-map-item">
-                      <h6 class="title mb-4">Resources</h6>
+                      <h6 class="title mb-4">Alamat</h6>
                       <ul>
-                        <li><a href="#resource">Resource</a></li>
-                        <li><a href="#resource-name">Resource name</a></li>
-                        <li><a href="#another-resource">Another resource</a></li>
-                        <li><a href="#final-resource">Final resource</a></li>
-                      </ul>
-                    </div>
-                    <div class="col pa-4 site-map-item">
-                      <h6 class="title mb-4">Legal</h6>
-                      <ul>
-                        <li><a href="#privacy-policy">Privacy policy</a></li>
-                        <li><a href="#terms-of-use">Terms of use</a></li>
+                        <li>Jl. Kijang, No. 5, Kec. Poasia, Kota Kendari</li>
+                        <li>Telp: 0852-4174-2284</li>
                       </ul>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-3 col-sm-12 pa-4">
-                  <div class="socmed">
-                    <a class="btn btn-icon waves-effect"><span class="ion-social-facebook icon"></span></a>
-                    <a class="btn btn-icon waves-effect"><span class="ion-social-twitter icon"></span></a>
-                    <a class="btn btn-icon waves-effect"><span class="ion-social-instagram icon"></span></a>
-                    <a class="btn btn-icon waves-effect"><span class="ion-social-linkedin icon"></span></a>
-                  </div>
-                  <div class="select-lang select-outlined">
-                    <select class="select" id="lang_select">
-                      <option value="ar">󠁥󠁮󠁧󠁿العربيّة</option>
-                      <option value="de">Deutsch</option>
-                      <option value="en" selected>English</option>
-                      <option value="id">󠁥󠁮󠁧󠁿Bahasa Indonesia</option>
-                      <option value="pt">󠁥󠁮󠁧󠁿Português</option>
-                      <option value="zh">简体中文</option>
-                    </select>
-                  </div>
-                  <p class="body-2 mt-5 text-center hidden-md-up">&copy; Nirwana Theme 2022</p>
                 </div>
               </div>
             </div>
