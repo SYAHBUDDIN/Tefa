@@ -357,7 +357,7 @@
                           <div class="illustration">
                             <div class="bg pipe2"></div>
                             <figure class="screen2 desktop-screen">
-                              <img src="../assets/feature2_szph4p.jpg alt=" screen" />
+                              <img src="../assets/feature2_szph4p.jpg" alt="screen" />
                             </figure>
                             <figure class="graphic artwork2">
                               <img class="img-2d3d" src="../assets/assets/images/retail/feature2_2d@2x.png" data-2d="../assets/assets" data-3d="../assets/assets/images/retail/feature2_2d@2x.png" alt="illustration" />
