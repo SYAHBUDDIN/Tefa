@@ -375,9 +375,9 @@
                           <div class="bg pipe3"></div>
                           <div class="bg pipe4"></div>
                           <div class="title-secondary center-title">
-                            <h3>See how it works</h3>
+                            <h3>Cara Kerja Aplikasi Kami</h3>
                           </div>
-                          <p class="use-text-subtitle2 text-center">Imagine resolving every customer service inquiry promptly and proficiently—without a single sloppy handoff or having to scramble for purchase histories.</p>
+                          <p class="use-text-subtitle2 text-center">Aplikasi e-commerce menghubungkan pembeli dan penjual, memungkinkan pencarian produk, pembayaran aman, pengiriman cepat, dan ulasan pengguna.</p>
                           <div class="wow fadeInUpShort" data-wow-offset="100" data-wow-delay="0.5s" data-wow-duration="0.5s">
                             <div class="card video">
                               <img src="https://placehold.co/880x450/00BCD4/FFFFFF/" alt="screen" />
