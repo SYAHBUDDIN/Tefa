@@ -322,7 +322,7 @@
                       <div class="col-md-6 col-sm-12 order-lg-5 px-0">
                         <div class="desc">
                           <div class="title-secondary left-title">
-                            <h3>gampang di akses</h3>
+                            <h3>Gampang di akses</h3>
                           </div>
                           <h6 class="use-text-subtitle2 text-center text-lg-start">anda dapat mengakses webside kami lebih lanjut dengan bergabung dengan kami secara gratis. kami juga tidak akan menggangu percakapan anda dengan penjual karena kami hanya menjembatani anda ke penjual</h6>
                         </div>
@@ -332,7 +332,7 @@
                           <div class="illustration">
                             <div class="bg pipe1"></div>
                             <figure class="screen1 mobile-screen">
-                              <img src="https://placehold.co/203x407/00BFA5/FFFFFF/" alt="screen" />
+                              <img src="../assets/feature1_eqw1ws.jpg" alt="screen" />
                             </figure>
                             <figure class="graphic artwork1">
                               <img class="img-2d3d" src="../assets/assets/images/retail/feature1_2d@2x.png" data-2d="../assets/assets" data-3d="../assets/assets/images/retail/feature1_2d@2x.png" alt="illustration" />
@@ -357,7 +357,7 @@
                           <div class="illustration">
                             <div class="bg pipe2"></div>
                             <figure class="screen2 desktop-screen">
-                              <img src="https://placehold.co/220x280/1976D2/FFFFFF/" alt="screen" />
+                              <img src="../assets/feature2_szph4p.jpg alt=" screen" />
                             </figure>
                             <figure class="graphic artwork2">
                               <img class="img-2d3d" src="../assets/assets/images/retail/feature2_2d@2x.png" data-2d="../assets/assets" data-3d="../assets/assets/images/retail/feature2_2d@2x.png" alt="illustration" />
@@ -379,7 +379,7 @@
                           <p class="use-text-subtitle2 text-center">Aplikasi e-commerce menghubungkan pembeli dan penjual, memungkinkan pencarian produk, pembayaran aman, pengiriman cepat, dan ulasan pengguna.</p>
                           <div class="wow fadeInUpShort" data-wow-offset="100" data-wow-delay="0.5s" data-wow-duration="0.5s">
                             <div class="card video">
-                              <img src="https://placehold.co/880x450/00BCD4/FFFFFF/" alt="screen" />
+                              <img src="../assets/feature3_h3zmmn.jpg" alt="screen" />
                               <div class="btn-icon btn-large button waves-effect modal-trigger" data-target="video_modal" data-video="MltGO66gTbo"><i class="ion-play"></i></div>
                             </div>
                           </div>
