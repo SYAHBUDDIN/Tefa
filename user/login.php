@@ -23,70 +23,27 @@ if ($user){
 // buat session
 session_start();
 $_session["user"] = $user;
+$_session["level"] = "user";
 header("Location: dashboard.php");
 
+    }else if($user['level']=="penjual"){
+      // buat session login dan username
+      $_SESSION['user'] = "user";
+      $_SESSION['level'] = "penjual";
+      // alihkan ke halaman dashboard pegawai
+      header("location:../penjual/dashboard.php");
+    }else if($user['level']=="admind"){
+      // buat session login dan username
+      $_SESSION['user'] = "user";
+      $_SESSION['level'] = "penjual";
+      // alihkan ke halaman dashboard pegawai
+      header("location:../penjual/dashboard.php");
     }
 
 
-}
+  }
 }
 
- 
-// mengaktifkan session pada php
-session_start();
- 
-// menghubungkan php dengan koneksi database
-include '../koneksi.php';
- 
-// menangkap data yang dikirim dari form login
-$nama_pengguna = $_POST['nama_pengguna'];
-$password = $_POST['password'];
- 
- 
-// menyeleksi data user dengan username dan password yang sesuai
-$login = mysqli_query($koneksi,"select * from user where nama_pengguna='$nama_pengguna' and password='$password'");
-// menghitung jumlah data yang ditemukan
-$cek = mysqli_num_rows($login);
- 
-// cek apakah username dan password di temukan pada database
-if($cek > 0){
- 
-	$data = mysqli_fetch_assoc($login);
- 
-	// cek jika user login sebagai admin
-	if($data['level']=="admin"){
- 
-		// buat session login dan username
-		$_SESSION['nama_pengguna'] = $nama_pengguna;
-		$_SESSION['level'] = "admin";
-		// alihkan ke halaman dashboard admin
-		header("location:halaman_admin.php");
- 
-	// cek jika user login sebagai pegawai
-	}else if($data['level']=="pegawai"){
-		// buat session login dan username
-		$_SESSION['username'] = $username;
-		$_SESSION['level'] = "pegawai";
-		// alihkan ke halaman dashboard pegawai
-		header("location:halaman_pegawai.php");
- 
-	// cek jika user login sebagai pengurus
-	}else if($data['level']=="pengurus"){
-		// buat session login dan username
-		$_SESSION['username'] = $username;
-		$_SESSION['level'] = "pengurus";
-		// alihkan ke halaman dashboard pengurus
-		header("location:halaman_pengurus.php");
- 
-	}else{
- 
-		// alihkan ke halaman login kembali
-		header("location:index.php?pesan=gagal");
-	}	
-}else{
-	header("location:index.php?pesan=gagal");
-}
- 
 ?>
 
 
