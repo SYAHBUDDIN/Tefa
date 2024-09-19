@@ -323,7 +323,7 @@
                       <div class="col-md-6 col-sm-12 order-lg-5 px-0">
                         <div class="desc">
                           <div class="title-secondary left-title">
-                            <h3>Point of sale</h3>
+                            <h3>cara membeli</h3>
                           </div>
                           <h6 class="use-text-subtitle2 text-center text-lg-start">Transform your smartphone or tablet into an easy to use point-of-sale. Connect a receipt printer, barcode scanner, and cash drawer.</h6>
                         </div>
