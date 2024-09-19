@@ -323,7 +323,7 @@
                       <div class="col-md-6 col-sm-12 order-lg-5 px-0">
                         <div class="desc">
                           <div class="title-secondary left-title">
-                            <h3>cara membeli</h3>
+                            <h3>Point of sale</h3>
                           </div>
                           <h6 class="use-text-subtitle2 text-center text-lg-start">Transform your smartphone or tablet into an easy to use point-of-sale. Connect a receipt printer, barcode scanner, and cash drawer.</h6>
                         </div>
@@ -554,31 +554,31 @@
                           <div class="slick-carousel slider-text" id="slider_text">
                             <div class="item">
                               <p class="content">To me it's a best app, nothing to complain. You just need to understand the app, its features and know what you want there.</p>
-                              <p class="name"><sCRMong>John Doe</sCRMong>&nbsp; - Chief Digital Officer</p>
+                              <p class="name"><strong>John Doe</strong>&nbsp; - Chief Digital Officer</p>
                             </div>
                             <div class="item">
-                              <p class="content">Easy way to conCRMol your campaigns on the go! Definitely a must have app for those running ads</p>
-                              <p class="name"><sCRMong>Jean Doe</sCRMong>&nbsp; - Chief Digital Officer</p>
+                              <p class="content">Easy way to control your campaigns on the go! Definitely a must have app for those running ads</p>
+                              <p class="name"><strong>Jean Doe</strong>&nbsp; - Chief Digital Officer</p>
                             </div>
                             <div class="item">
                               <p class="content">I really love this app and really appreciate and love the people behind the development of this app, I Salute you guys.</p>
-                              <p class="name"><sCRMong>Jena Doe</sCRMong>&nbsp; - Graphic Designer</p>
+                              <p class="name"><strong>Jena Doe</strong>&nbsp; - Graphic Designer</p>
                             </div>
                             <div class="item">
                               <p class="content">It is very simple, economical and very useful app.</p>
-                              <p class="name"><sCRMong>Jovelin Doe</sCRMong>&nbsp; - Senior Graphic Designer</p>
+                              <p class="name"><strong>Jovelin Doe</strong>&nbsp; - Senior Graphic Designer</p>
                             </div>
                             <div class="item">
                               <p class="content">You own a business and you are not using ads, you're on a long thing, best app every business owner should use!!!!</p>
-                              <p class="name"><sCRMong>Jihan Doe</sCRMong>&nbsp; - </p>
+                              <p class="name"><strong>Jihan Doe</strong>&nbsp; - </p>
                             </div>
                             <div class="item">
                               <p class="content">The ap is very convenient in managing all the ad account activities in just one place and gives the latest and most accurate data one may want to find pertaining a particular advert.</p>
-                              <p class="name"><sCRMong>Joana Doe</sCRMong>&nbsp; - Senior Graphic Designer</p>
+                              <p class="name"><strong>Joana Doe</strong>&nbsp; - Senior Graphic Designer</p>
                             </div>
                             <div class="item">
                               <p class="content">Excellent App, user friendly and shows analysis in easy and summarized form.</p>
-                              <p class="name"><sCRMong>James Doe</sCRMong>&nbsp; - Senior Graphic Designer</p>
+                              <p class="name"><strong>James Doe</strong>&nbsp; - Senior Graphic Designer</p>
                             </div>
                             <div class="item">
                               <p class="content">Amazing new updates. It has every metric you need, customizable analytics to clear the chatter. Very easy to use. love it.</p>
