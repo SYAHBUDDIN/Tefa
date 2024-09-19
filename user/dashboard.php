@@ -316,16 +316,16 @@
                 </div>
                 <div class="container mq-lg-up" data-class="fixed-width">
                   <div class="title-main center-title">
-                    <h4>features</h4>
+                    <h4>fitur</h4>
                   </div>
                   <div class="item">
                     <div class="row align-items-center justify-content-center">
                       <div class="col-md-6 col-sm-12 order-lg-5 px-0">
                         <div class="desc">
                           <div class="title-secondary left-title">
-                            <h3>Point of sale</h3>
+                            <h3>gampang di akses</h3>
                           </div>
-                          <h6 class="use-text-subtitle2 text-center text-lg-start">Transform your smartphone or tablet into an easy to use point-of-sale. Connect a receipt printer, barcode scanner, and cash drawer.</h6>
+                          <h6 class="use-text-subtitle2 text-center text-lg-start">anda dapat mengakses webside kami lebih lanjut dengan bergabung dengan kami secara gratis. kami juga tidak akan menggangu percakapan anda dengan penjual karena kami hanya menjembatani anda ke penjual</h6>
                         </div>
                       </div>
                       <div class="col-md-4 col-sm-12 px-sm-8 px-0 order-lg-0">
@@ -348,9 +348,9 @@
                       <div class="col-md-6 px-sm-8 px-0">
                         <div class="desc">
                           <div class="title-secondary right-title">
-                            <h3>CRM and customer loyalty</h3>
+                            <h3>Pencarian produk</h3>
                           </div>
-                          <h6 class="use-text-subtitle2 text-center text-md-end">Turn once-in-a-while shoppers into regulars. Run loyalty program to reward customers for their recurring purchases</h6>
+                          <h6 class="use-text-subtitle2 text-center text-md-end">Fitur yang memudahkan pengguna untuk mencari produk dengan cepat melalui search bar yang disediakan.</h6>
                         </div>
                       </div>
                       <div class="col-md-6 px-sm-12 px-0">
@@ -375,9 +375,9 @@
                           <div class="bg pipe3"></div>
                           <div class="bg pipe4"></div>
                           <div class="title-secondary center-title">
-                            <h3>See how it works</h3>
+                            <h3>Cara Kerja Aplikasi Kami</h3>
                           </div>
-                          <p class="use-text-subtitle2 text-center">Imagine resolving every customer service inquiry promptly and proficiently—without a single sloppy handoff or having to scramble for purchase histories.</p>
+                          <p class="use-text-subtitle2 text-center">Aplikasi e-commerce menghubungkan pembeli dan penjual, memungkinkan pencarian produk, pembayaran aman, pengiriman cepat, dan ulasan pengguna.</p>
                           <div class="wow fadeInUpShort" data-wow-offset="100" data-wow-delay="0.5s" data-wow-duration="0.5s">
                             <div class="card video">
                               <img src="https://placehold.co/880x450/00BCD4/FFFFFF/" alt="screen" />

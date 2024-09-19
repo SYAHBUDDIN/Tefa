@@ -26,18 +26,6 @@ $_session["user"] = $user;
 $_session["level"] = "user";
 header("Location: dashboard.php");
 
-    }else if($user['level']=="penjual"){
-      // buat session login dan username
-      $_SESSION['user'] = "user";
-      $_SESSION['level'] = "penjual";
-      // alihkan ke halaman dashboard pegawai
-      header("location:../penjual/dashboard.php");
-    }else if($user['level']=="admind"){
-      // buat session login dan username
-      $_SESSION['user'] = "user";
-      $_SESSION['level'] = "penjual";
-      // alihkan ke halaman dashboard pegawai
-      header("location:../penjual/dashboard.php");
     }
 
 
