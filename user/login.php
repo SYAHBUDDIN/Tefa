@@ -30,6 +30,10 @@ if (isset($_POST['login'])) {
         $_session["user"] = $user;
         header("Location: dashboard.php");
       }
+      if ($user['level'] == "penjual") {
+        $_session["user"] = $user;
+        header("Location: ../penjual/dashboard.php");
+      }
     }
   }
 }
