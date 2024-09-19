@@ -306,7 +306,7 @@
               <div class="root">
                 <div class="modal video-popup" id="video_modal">
                   <div class="modal-content">
-                    <h4 class="use-text-subtitle mb-5">Reimagine how you sell with Sales Apps</h4>
+                    <h4 class="use-text-subtitle mb-5">Tutorial anda berjualan dengan Aplikasi Penjualan</h4>
                     <button class="btn-icon modal-close waves-effect"><i class="material-icons">close</i></button>
                     <div class="text-center">
                       <div id="video_iframe"></div>
@@ -562,45 +562,6 @@
           </footer><!-- ##### END FOOTER #####-->
 
 
-          <!-- ##### CORNER #####-->
-          <div class="hidden-md-down">
-            <div class="chat">
-              <div class="panel" id="chat_panel">
-                <header>
-                  <h3><span class="indicator online"></span>Live Chat</h3>
-                  <div class="btn btn-icon waves-effect close" id="close_chat"><i class="ion-android-close"></i></div>
-                </header>
-                <div class="chat-room" id="chat-container">
-                  <ul>
-                    <li class="item">
-                      <div class="avatar">
-                        <img class="avatar-img" src="../assets/assets/images/avatars/pp_boy4.svg" alt="visitor" />
-                      </div>
-                      <span class="talk from">Hola!, Maecenas</span>
-                    </li>
-                    <li class="item justify-content-end">
-                      <span class="talk">Hola!, Maecenas nisl </span>
-                    </li>
-                    <li class="item">
-                      <div class="avatar">
-                        <img class="avatar-img" src="../assets/assets/images/avatars/pp_boy4.svg" alt="visitor" />
-                      </div>
-                      <span class="talk from">Hola!, Maecenas</span>
-                    </li>
-                  </ul>
-                </div>
-                <div class="form">
-                  <div class="input-field dark"><input id="chat_field" type="text">
-                    <label for="chat_field">Ask something</label>
-                  </div>
-                  <div class="btn-floating waves-effect send" id="send_message"><span class="ion-android-send"></span></div>
-                </div>
-              </div>
-              <div class="btn-floating btn-large chat-button" id="toggle_chat">
-                <span class="indicator online"></span><i class="ion-chatbox"></i>
-              </div>
-            </div>
-          </div><!-- ##### END CORNER #####-->
         </div>
       </div>
     </div>

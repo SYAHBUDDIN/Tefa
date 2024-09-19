@@ -1,36 +1,37 @@
 <?php
 require_once("../koneksi.php");
-if(isset($_POST['login'])) {
-    // filter data
-    $nama_pengguna = filter_input(INPUT_POST, 'nama_pengguna', FILTER_SANITIZE_SPECIAL_CHARS );
-    $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_SPECIAL_CHARS);
+if (isset($_POST['login'])) {
+  // filter data
+  $nama_pengguna = filter_input(INPUT_POST, 'nama_pengguna', FILTER_SANITIZE_SPECIAL_CHARS);
+  $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_SPECIAL_CHARS);
 
 
-$sql = "SELECT * FROM tb_pengguna WHERE  nama_pengguna=:nama_pengguna OR email=:email";
-$baca = $database->prepare($sql);
+  $sql = "SELECT * FROM tb_pengguna WHERE  nama_pengguna=:nama_pengguna OR email=:email";
+  $baca = $database->prepare($sql);
 
-$params = array(
+  $params = array(
     ':nama_pengguna' => $nama_pengguna,
     ':email' => $nama_pengguna
-);
+  );
 
-$baca->execute($params);
+  $baca->execute($params);
 
-$user = $baca->fetch(PDO::FETCH_ASSOC);
+  $user = $baca->fetch(PDO::FETCH_ASSOC);
 
-if ($user){
-    if (password_verify($password, $user["password"])){
-// buat session
-session_start();
- if($user['level'] == "admin"){
-$_session["user"] = $user;
-header("Location: ../admin/dashboard.php");
- }if($user['level'] == "user"){
-$_session["user"] = $user;
-header("Location: dashboard.php");
-}
+  if ($user) {
+    if (password_verify($password, $user["password"])) {
+      // buat session
+      session_start();
+      if ($user['level'] == "admin") {
+        $_session["user"] = $user;
+        header("Location: ../admin/dashboard.php");
+      }
+      if ($user['level'] == "user") {
+        $_session["user"] = $user;
+        header("Location: dashboard.php");
+      }
+    }
   }
-}
 }
 
 ?>
@@ -188,7 +189,7 @@ header("Location: dashboard.php");
             </div>
           </div><!-- ##### END FORM #####-->
 
-          
+
         </div>
       </div>
     </div>
